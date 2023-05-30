@@ -1,0 +1,113 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 80px;
+    min-height: 100vh;
+    background-color: #df51d8;
+  }
+  
+  .contact-form {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 600px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+  }
+  
+  .contact-form h1 {
+    font-size:36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    display: block;
+    font-weight: 600;
+  }
+  
+  .form-field input,
+  .form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-field textarea {
+    height: 150px; /* Set a larger height for the message field */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-form button {
+    background-color: #39b175;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px; /* Increase the padding for a bigger button */
+    transition: filter 0.3s ease; /* Add transition effect */
+  }
+  
+  .contact-form button:nth-child(2) {
+    background-color: #e54c4c;
+  }
+  
+  .contact-form button:hover {
+    filter: none; /* Remove blur effect on hover */
+  }
+  
+  .contact-form button:hover {
+    filter: brightness(1.2); /* Increase brightness on hover */
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus,
+  .contact-form button:hover {
+    border-color: #39b175;
+  }
+  
+  .contact-form input:focus + label,
+  .contact-form textarea:focus + label,
+  .contact-form button:hover + label {
+    color: #39b175;
+  }
+  
+  .email-success {
+    color: #39b175;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  

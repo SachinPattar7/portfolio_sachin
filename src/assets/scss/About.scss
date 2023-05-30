@@ -1,0 +1,135 @@
+.about-container {
+    background-color: hsl(191, 30%, 73%);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-description {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #131212;
+    font-family: cursive;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .skills-skill {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.2);
+    }
+  
+    /* Different shapes and linear gradients */
+    &:nth-child(1) {
+      background: linear-gradient(to right, #4285f4, #34a853); /* Blue to Green */
+      /* Custom shape */
+      border-radius: 50%;
+    }
+  
+    &:nth-child(2) {
+      background: linear-gradient(to right, #34a853, #fbbc05); /* Green to Yellow */
+      /* Custom shape */
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+  
+    &:nth-child(3) {
+      background: linear-gradient(to right, #fbbc05, #ea4335); /* Yellow to Red */
+      /* Custom shape */
+      border-radius: 50% 10% 50% 50%;
+    }
+  
+    &:nth-child(4) {
+      background: linear-gradient(to right, #ea4335, #4285f4); /* Red to Blue */
+      /* Custom shape */
+      transform: rotate(45deg);
+    }
+  
+    /* Add more skills here */
+    &:nth-child(5) {
+      background: linear-gradient(to right, #34a853, #fbbc05); /* Green to Yellow */
+      /* Custom shape */
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+  
+    &:nth-child(6) {
+      background: linear-gradient(to right, #fbbc05, #ea4335); /* Yellow to Red */
+      /* Custom shape */
+      border-radius: 20px;
+    }
+  
+    &:nth-child(7) {
+      background: linear-gradient(to right, #ea4335, #4285f4); /* Red to Blue */
+      /* Custom shape */
+      clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    }
+  
+    &:nth-child(8) {
+      background: linear-gradient(to right, #4285f4, #fbbc05); /* Blue to Yellow */
+      /* Custom shape */
+      border-radius: 25% 50% 25% 25%;
+    }
+  
+    &:nth-child(9) {
+      background: linear-gradient(to right, #fbbc05, #34a853); /* Yellow to Green */
+      /* Custom shape */
+      clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+    }
+  
+    &:nth-child(10) {
+      background: linear-gradient(to right, #34a853, #ea4335); /* Green to Red */
+      /* Custom shape */
+      border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%;
+    }
+  }
+  
+  .skills-skill:hover {
+    background-color: #3367d6;
+  }
+  
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: #333;
+    font-weight: bolder;
+    font-family: cursive;
+  }
+  
+  p {
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+  }
+  
